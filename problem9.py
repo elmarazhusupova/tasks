@@ -1,7 +1,8 @@
-#cherez
-a = 2003
-b = 2020
-y = 2
-print((b-a)+y)
-#do
-print((b-a)-y)
+i = int(input('ном-1: '))
+l = int(input('ном-2: '))
+if i < l:
+    print('1-меньше')
+if i > l:
+    print('2-меньше')
+if i == l:
+    print('они равны')
