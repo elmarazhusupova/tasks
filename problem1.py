@@ -1,8 +1,7 @@
-p = []
-name = 'Chyngyz'
-age = 18
-lang = 'python'
-p.append(name)
-p.append(age)
-p.append(lang)
-print (p)
+a = ('hi','privet')
+b = ('chyngyz','meerim')
+c = ('kiss','ahh')
+a = set(a)
+b = set(b)
+c = set(c)
+print(a.union(b,c))

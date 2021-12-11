@@ -1,3 +1,4 @@
-i = input("где хотите разделить слово 'GitHub': ")
-a = 'GitHub'
-print(a.split(i))
+a = {'dog','cat','mouse','sheep'}
+b = {'cow','horse','donkey','cat','dog'}
+a.difference(b)
+print(a)
