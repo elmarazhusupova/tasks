@@ -1,6 +1,3 @@
-a = 2**3
-b = 3**2
-if  a > b:
-    print (a)
-if  b > a:
-    print (b)
+i = input("где хотите разделить слово 'GitHub': ")
+a = 'GitHub'
+print(a.split(i))
