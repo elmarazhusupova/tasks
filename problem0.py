@@ -1,3 +1,4 @@
-a = 'Этот код используется для входа в Ваш аккаунт в Telegram. Он никогда не нужен для чего-то еще. '
-print(a[0:58])
-print(a[58:95].upper())
+names = ['chika','tolik','kairat','beka','bulian']
+p = []
+s = p.join(names)
+print(s)
