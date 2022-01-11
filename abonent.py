@@ -8,7 +8,7 @@ def __init__(self, identifier, surname, name, middle_name, adress, credit_card_n
         self.debet = debet
         self.credit = credit
         self.time_city = time_city
-        self.time_intercity = time_intercity
+        self.time_intercity = time_intercity 
 
         self.get_atributes()
 
